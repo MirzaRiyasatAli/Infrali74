@@ -10,6 +10,8 @@ setuptools.setup(
     author_email="mirzariyasatali1@gmail.com",
     description="A vein detector library",
     long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/MirzaRiyasatAli/MirzaRiyasatAli.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
