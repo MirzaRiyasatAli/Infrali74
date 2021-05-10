@@ -79,16 +79,4 @@ def detect_vessel(org_image):
 
 
 if __name__ == "__main__":
-    data_catalog = "data"
-    raw_catalog = "raw_vessels"
-    vessel_catalog = "vessels_images"
-    files_names = [x for x in os.listdir(data_catalog) if os.path.isfile(os.path.join(data_catalog,x))]
-    files_names.sort()
-    
-    for file_name in files_names:
-        out_name = file_name.split('.')[0]
-        org_image = cv2.imread(data_catalog + '/' + file_name)
-        raw_vessel, vessel_image = detect_vessel(org_image)
-        cv2.imwrite(raw_catalog + '/' + out_name + ".JPG", raw_vessel)
-        cv2.imwrite(vessel_catalog + '/' + out_name + ".JPG", vessel_image)
-        
+    main()
