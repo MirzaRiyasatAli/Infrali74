@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
-  name = 'Infrali074',         # How you named your package folder (MyLib)
-  packages = ['Infrali074'],   # Chose the same as "name"
+  name = 'Infrali',         # How you named your package folder (MyLib)
+  packages = ['Infrali'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Veindetection helper Function',   # Give a short description about your library
+  description = 'Vein detection helper Function',   # Give a short description about your library
   author = 'Mirza Riyasat Ali',                   # Type in your name
   author_email = 'mirzariyasatali1@domain.com',      # Type in your E-Mail
   url = 'https://github.com/MirzaRiyasatAli/Infrali74.git',   # Provide either the link to your github or to your website
